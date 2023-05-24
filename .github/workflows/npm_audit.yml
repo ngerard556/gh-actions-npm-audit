@@ -6,7 +6,7 @@ on:
 jobs:
   scan:
     permissions: write-all
-    name: npm audit
+    name: npm audit nsg
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
